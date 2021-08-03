@@ -1,0 +1,23 @@
+{
+  "name": "xcycuc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "prettier": "^2.3.2",
+    "typescript": "^4.3.5"
+  },
+  "devDependencies": {
+    "cucumber": "^7.0.0-rc.0",
+    "cypress": "^8.1.0",
+    "cypress-cucumber-preprocessor": "^4.2.0"
+  }
+}
